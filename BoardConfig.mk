@@ -51,4 +51,3 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := 28
 
 # inherit from the proprietary version
 include vendor/motorola/bangkk/BoardConfigVendor.mk
-include vendor/lunaris/dolby/BoardConfigDolby.mk
