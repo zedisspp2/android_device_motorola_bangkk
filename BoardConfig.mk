@@ -12,11 +12,6 @@ include device/motorola/sm6375-common/BoardConfigCommon.mk
 TARGET_BOOTLOADER_BOARD_NAME := bangkk
 
 # HIDL
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
-    vendor/lunaris/dolby/vintf/dolby_framework_compatibility_matrix.xml
-DEVICE_MANIFEST_FILE += \
-    vendor/lunaris/dolby/vintf/dolby_manifest.xml
-
 ODM_MANIFEST_SKUS += b d de dn n
 ODM_MANIFEST_B_FILES := $(DEVICE_PATH)/sku/manifest_b.xml
 ODM_MANIFEST_D_FILES := $(DEVICE_PATH)/sku/manifest_d.xml
